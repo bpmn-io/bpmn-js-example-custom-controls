@@ -1,10 +1,38 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  outline: none;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
 }
 
-html, body, #container {
-  height: 100%;
+html,
+body,
+#container {
+    height: 100%;
+}
+
+.djs-palette {
+    resize: horizontal;
+    overflow: hidden;
+}
+
+.group {
+    display: inline-block;
+}
+
+.group.closed {
+    display: none;
+}
+
+.group-title.closed {
+    background-color: bisque
+}
+
+.group-title {
+    padding: 5px;
+    height: 25px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

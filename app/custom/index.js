@@ -1,8 +1,10 @@
 import CustomContextPad from './CustomContextPad';
-import CustomPalette from './CustomPalette';
+import CustomPaletteProvider from './CustomPaletteProvider';
+import Palette from './Palette';
 
 export default {
-  __init__: [ 'customContextPad', 'customPalette' ],
-  customContextPad: [ 'type', CustomContextPad ],
-  customPalette: [ 'type', CustomPalette ]
+    __init__: ['customContextPad', 'customPaletteProvider', 'palette'],
+    customContextPad: ['type', CustomContextPad],
+    customPaletteProvider: ['type', CustomPaletteProvider],
+    palette: ['type', Palette],
 };
