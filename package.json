@@ -39,6 +39,6 @@
   "dependencies": {
     "bpmn-js": "^18.31.1",
     "diagram-js": "^15.28.1",
-    "tiny-svg": "^2.2.1"
+    "tiny-svg": "^4.1.4"
   }
 }
