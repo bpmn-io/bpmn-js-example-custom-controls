@@ -1,5 +1,5 @@
-import CustomContextPad from './CustomContextPad';
-import CustomPalette from './CustomPalette';
+import CustomContextPad from './CustomContextPad.js';
+import CustomPalette from './CustomPalette.js';
 
 export default {
   __init__: [ 'customContextPad', 'customPalette' ],

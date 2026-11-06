@@ -1,6 +1,6 @@
 import BpmnModeler from 'bpmn-js/lib/Modeler';
 
-import customControlsModule from './custom';
+import customControlsModule from './custom/index.js';
 
 import diagramXML from '../resources/diagram.bpmn';
 
