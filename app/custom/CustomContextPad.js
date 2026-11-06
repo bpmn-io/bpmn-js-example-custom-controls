@@ -22,7 +22,7 @@ export default class CustomContextPad {
     function appendServiceTask(event, element) {
       if (autoPlace) {
         const shape = elementFactory.createShape({ type: 'bpmn:ServiceTask' });
-  
+
         autoPlace.append(element, shape);
       } else {
         appendServiceTaskStart(event, element);
@@ -31,7 +31,7 @@ export default class CustomContextPad {
 
     function appendServiceTaskStart(event) {
       const shape = elementFactory.createShape({ type: 'bpmn:ServiceTask' });
-  
+
       create.start(event, shape, element);
     }
 
